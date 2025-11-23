@@ -1,0 +1,35 @@
+{
+  "annotations": {"list": []},
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Total Rows",
+      "targets": [{"expr": "csv_contacts_total_rows", "refId": "A"}],
+      "gridPos": {"h": 6, "w": 6, "x": 0, "y": 0}
+    },
+    {
+      "type": "stat",
+      "title": "Unique Contacts",
+      "targets": [{"expr": "csv_contacts_unique_contacts", "refId": "A"}],
+      "gridPos": {"h": 6, "w": 6, "x": 6, "y": 0}
+    },
+    {
+      "type": "stat",
+      "title": "OOO Count",
+      "targets": [{"expr": "csv_contacts_ooo_count", "refId": "A"}],
+      "gridPos": {"h": 6, "w": 6, "x": 12, "y": 0}
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["csv", "contacts"],
+  "templating": {"list": []},
+  "time": {"from": "now-6h", "to": "now"},
+  "timepicker": {},
+  "timezone": "",
+  "title": "Contacts Overview",
+  "version": 1
+}

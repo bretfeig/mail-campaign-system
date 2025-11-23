@@ -1,0 +1,7 @@
+email-validator==2.2.0
+imapclient==3.0.1
+backoff==2.2.1
+phonenumbers==8.13.50
+python-dateutil==2.9.0.post0
+pytest==8.2.1
+pytest-cov==5.0.0
